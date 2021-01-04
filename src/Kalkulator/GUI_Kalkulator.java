@@ -10,8 +10,9 @@ package Kalkulator;
  * @author USER
  */
 public class GUI_Kalkulator extends javax.swing.JFrame {
-    double pertama, kedua, hasil;
-    String operasi;
+    double jumlah, bil1, bil2;
+    String bil;
+    int pilih;
     
     /**
      * Creates new form GUI_Kalkulator
@@ -301,122 +302,62 @@ public class GUI_Kalkulator extends javax.swing.JFrame {
 
     private void btn7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn7ActionPerformed
         // TODO add your handling code here:
-        String MasukkanAngka = txtTampil.getText();
-        
-        if(MasukkanAngka == ""){
-            txtTampil.setText(btn7.getText());
-        } else {
-            MasukkanAngka = txtTampil.getText() + btn7.getText();
-            txtTampil.setText(MasukkanAngka);
-        }
+        bil ="7";        
+        txtTampil.setText(bil);
     }//GEN-LAST:event_btn7ActionPerformed
 
     private void btn8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn8ActionPerformed
         // TODO add your handling code here:
-        String MasukkanAngka = txtTampil.getText();
-        
-        if(MasukkanAngka == ""){
-            txtTampil.setText(btn8.getText());
-        } else {
-            MasukkanAngka = txtTampil.getText() + btn8.getText();
-            txtTampil.setText(MasukkanAngka);
-        }
+        bil ="8";
+        txtTampil.setText(bil);
     }//GEN-LAST:event_btn8ActionPerformed
 
     private void btn9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn9ActionPerformed
         // TODO add your handling code here:
-        String MasukkanAngka = txtTampil.getText();
-        
-        if(MasukkanAngka == ""){
-            txtTampil.setText(btn9.getText());
-        } else {
-            MasukkanAngka = txtTampil.getText() + btn9.getText();
-            txtTampil.setText(MasukkanAngka);
-        }
+        bil ="9";
+        txtTampil.setText(bil);
     }//GEN-LAST:event_btn9ActionPerformed
 
     private void btn4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn4ActionPerformed
         // TODO add your handling code here:
-        String MasukkanAngka = txtTampil.getText();
-        
-        if(MasukkanAngka == ""){
-            txtTampil.setText(btn4.getText());
-        } else {
-            MasukkanAngka = txtTampil.getText() + btn4.getText();
-            txtTampil.setText(MasukkanAngka);
-        }
+        bil ="4";
+        txtTampil.setText(bil);
     }//GEN-LAST:event_btn4ActionPerformed
 
     private void btn5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn5ActionPerformed
         // TODO add your handling code here:
-        String MasukkanAngka = txtTampil.getText();
-        
-        if(MasukkanAngka == ""){
-            txtTampil.setText(btn5.getText());
-        } else {
-            MasukkanAngka = txtTampil.getText() + btn5.getText();
-            txtTampil.setText(MasukkanAngka);
-        }
+        bil ="5";
+        txtTampil.setText(bil);
     }//GEN-LAST:event_btn5ActionPerformed
 
     private void btn6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn6ActionPerformed
         // TODO add your handling code here:
-        String MasukkanAngka = txtTampil.getText();
-        
-        if(MasukkanAngka == ""){
-            txtTampil.setText(btn6.getText());
-        } else {
-            MasukkanAngka = txtTampil.getText() + btn6.getText();
-            txtTampil.setText(MasukkanAngka);
-        }
+        bil ="6";
+        txtTampil.setText(bil);
     }//GEN-LAST:event_btn6ActionPerformed
 
     private void btn1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn1ActionPerformed
         // TODO add your handling code here:
-        String MasukkanAngka = txtTampil.getText();
-        
-        if(MasukkanAngka == ""){
-            txtTampil.setText(btn1.getText());
-        } else {
-            MasukkanAngka = txtTampil.getText() + btn1.getText();
-            txtTampil.setText(MasukkanAngka);
-        }
+        bil ="1";
+        txtTampil.setText(bil);
     }//GEN-LAST:event_btn1ActionPerformed
 
     private void btn2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn2ActionPerformed
         // TODO add your handling code here:
-        String MasukkanAngka = txtTampil.getText();
-        
-        if(MasukkanAngka == ""){
-            txtTampil.setText(btn2.getText());
-        } else {
-            MasukkanAngka = txtTampil.getText() + btn2.getText();
-            txtTampil.setText(MasukkanAngka);
-        }
+        bil ="2";
+        txtTampil.setText(bil);
     }//GEN-LAST:event_btn2ActionPerformed
 
     private void btn3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn3ActionPerformed
         // TODO add your handling code here:
-        String MasukkanAngka = txtTampil.getText();
-        
-        if(MasukkanAngka == ""){
-            txtTampil.setText(btn3.getText());
-        } else {
-            MasukkanAngka = txtTampil.getText() + btn3.getText();
-            txtTampil.setText(MasukkanAngka);
-        }
+        bil ="3";
+        txtTampil.setText(bil);
     }//GEN-LAST:event_btn3ActionPerformed
 
     private void btn0ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn0ActionPerformed
         // TODO add your handling code here:
-        String MasukkanAngka = txtTampil.getText();
-        
-        if(MasukkanAngka == ""){
-            txtTampil.setText(btn0.getText());
-        } else {
-            MasukkanAngka = txtTampil.getText() + btn0.getText();
-            txtTampil.setText(MasukkanAngka);
-        }
+        bil ="0";
+        txtTampil.setText(bil);
     }//GEN-LAST:event_btn0ActionPerformed
 
     private void btnTitikActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnTitikActionPerformed
@@ -445,30 +386,34 @@ public class GUI_Kalkulator extends javax.swing.JFrame {
 
     private void btnBagiActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnBagiActionPerformed
         // TODO add your handling code here:
-        pertama = Double.parseDouble(txtTampil.getText());
-        txtTampil.setText("");
-        operasi = "/";
+        bil1 =Double.parseDouble(bil);
+        txtTampil.setText("/");
+        bil="";
+        pilih=1;
     }//GEN-LAST:event_btnBagiActionPerformed
 
     private void btnKurangActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnKurangActionPerformed
         // TODO add your handling code here:
-        pertama = Double.parseDouble(txtTampil.getText());
-        txtTampil.setText("");
-        operasi = "-";
+        bil1 =Double.parseDouble(bil);
+        txtTampil.setText("-");
+        bil="";
+        pilih=2;
     }//GEN-LAST:event_btnKurangActionPerformed
 
     private void btnTambahActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnTambahActionPerformed
         // TODO add your handling code here:
-        pertama = Double.parseDouble(txtTampil.getText());
-        txtTampil.setText("");
-        operasi = "+";
+        bil1 =Double.parseDouble(bil);
+        txtTampil.setText("+");
+        bil="";
+        pilih=3;
     }//GEN-LAST:event_btnTambahActionPerformed
 
     private void btnKaliActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnKaliActionPerformed
         // TODO add your handling code here:
-        pertama = Double.parseDouble(txtTampil.getText());
-        txtTampil.setText("");
-        operasi = "*+";
+        bil1 =Double.parseDouble(bil);
+        txtTampil.setText("*");
+        bil="";
+        pilih=4;
     }//GEN-LAST:event_btnKaliActionPerformed
 
     private void btnMinActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnMinActionPerformed
@@ -480,26 +425,29 @@ public class GUI_Kalkulator extends javax.swing.JFrame {
 
     private void btnHasilActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnHasilActionPerformed
         // TODO add your handling code here:
-        String Jawab;
-        kedua = Double.parseDouble(String.valueOf(txtTampil.getText()));
-        
-        if(operasi == "+"){
-            hasil = pertama + kedua;
-            Jawab = String.format("%.2f", hasil);
-            txtTampil.setText(Jawab);
-        } else if(operasi == "-"){
-            hasil = pertama + kedua;
-            Jawab = String.format("%.2f", hasil);
-            txtTampil.setText(Jawab);
-        } else if(operasi == "*"){
-            hasil = pertama + kedua;
-            Jawab = String.format("%.2f", hasil);
-            txtTampil.setText(Jawab);
-        }else if(operasi == "/"){
-            hasil = pertama + kedua;
-            Jawab = String.format("%.2f", hasil);
-            txtTampil.setText(Jawab);
+        switch(pilih){
+            case 1 :
+                bil2 = Double.parseDouble(String.valueOf(txtTampil.getText()));
+                jumlah = bil1 / bil2;
+                bil = Double.toString(jumlah);
+                break;
+            case 2 :
+                bil2 = Double.parseDouble(String.valueOf(txtTampil.getText()));
+                jumlah = bil1 - bil2;
+                bil = Double.toString(jumlah);
+                break;
+            case 3 :
+                bil2 = Double.parseDouble(String.valueOf(txtTampil.getText()));
+                jumlah = bil1 + bil2;
+                bil = Double.toString(jumlah);
+                break;
+            case 4 :
+                bil2 = Double.parseDouble(String.valueOf(txtTampil.getText()));
+                jumlah = bil1 * bil2;
+                bil = Double.toString(jumlah);
+                break;
         }
+        txtTampil.setText(bil);
     }//GEN-LAST:event_btnHasilActionPerformed
 
     /**
